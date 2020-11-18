@@ -9,9 +9,11 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <Button
-        android:background="@drawable/bg_state"
-        android:text="State"
+    <RatingBar
+        android:stepSize="0.1"
+        android:maxHeight="65dp"
+        android:maxWidth="25dp"
+        android:progressDrawable="@drawable/bg_ratingbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
