@@ -6,53 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/bg_linear"
+    android:background="@drawable/bg_layer_image"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:background="@drawable/bg_white_color"
-        android:layout_width="350dp"
-        android:layout_height="400dp">
-        <ImageView
-            android:id="@+id/imageview"
-            android:layout_marginTop="10dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/codepolitan"
-            android:layout_width="150dp"
-            android:layout_height="150dp"/>
-        <EditText
-            android:hint="Email"
-            android:id="@+id/edittextEmail"
-            android:layout_marginHorizontal="10dp"
-            android:padding="15dp"
-            android:background="@drawable/bg_edittext_corner"
-            android:layout_marginTop="30dp"
-            android:layout_below="@id/imageview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <EditText
-            android:hint="Password"
-            android:id="@+id/edittextPass"
-            android:layout_marginHorizontal="10dp"
-            android:padding="15dp"
-            android:background="@drawable/bg_edittext_corner"
-            android:layout_marginTop="30dp"
-            android:layout_below="@id/edittextEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </RelativeLayout>
-
-    <Button
-        android:textStyle="bold"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:text="Login"
-        android:background="@drawable/bg_edittext_color1"
-        android:layout_marginHorizontal="25dp"
-        android:layout_marginTop="50dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
 </LinearLayout>
